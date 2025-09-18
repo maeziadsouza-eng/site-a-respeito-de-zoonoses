@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <!-- Esse mostra o favico do navegador-->
+    <link rel="shortcut icon" href="imagem/favico.ico" type="image/x-icon">
+
+  <title>ZoonoCare</title>
+
+  <!--Google Fonts-Lato-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--Bootstrap Icons-->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!--Bootstrap/CSS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!--Bootstrap-JS-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<!--CSS DO PROJETO-->
+    <link rel="stylesheet" href="style.css"> <!-- CSS aqui, no head -->
+</head>
+<body>
+      
+      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light shadow-sm">
+        <div class="container py-2">
+            <a href="#" class="navbar-brand">
+                <img src="imagem/ZoonoCare.png" alt="ZoonoCare" width="70">
+                <span>ZoonoCare</span>
+            </a>
+
+            <button 
+              class="navbar-toggler" 
+              type="button"
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbar-items"
+              aria-controls="navbar-items"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Quem somos?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        
+        <!-- Bem-vindo -->
+        <header class="header-welcome"> <br><br><br><br><br><br><br><br><br>
+            <h1>Bem-vindo ao ZoonoCare</h1> 
+            <div class="input-nome">
+                <label for="nome">Pesquisar:</label>
+                <input type="search" id="nome" placeholder="Pesquise aqui">
+            </div> <br><br>
+        </header>
+
+        <!-- Zoonoses -->
+        <section class="section-zoonoses">
+            <h2>ZOONOSES:</h2>
+            <p>Informações e prevenção para uma vida mais saudável</p>
+            
+            <div class="zoonoses-images">
+                <img src="imagem/rat.png" alt="Rato" width="70">
+                <img src="imagem/mosquito.png" alt="Mosquito" width="70">
+                <img src="imagem/bat.png" alt="Morcego" width="70">
+                <img src="imagem/tick.png" alt="Carrapato" width="70">
+                <img src="imagem/cow.png" alt="Vaca" width="70">
+            </div>
+        </section>
+
+        <!-- Botão -->
+        <footer class="footer-button mt-3">
+            <button>Saiba Mais</button>
+        </footer>
+    </main>
+</body>
+</html>
+     
+</body>
+</html>
